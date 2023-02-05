@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="data:;," />
+  <title>Hex Grid</title>
+  <style>
+    body {
+      margin: 0;
+      color: white;
+      font-family: sans-serif;
+      background-color: #333333;
+      overflow: hidden;
+      cursor: none;
+    }
+    img { visibility: hidden; }
+  </style>
+</head>
+<body>
+  <canvas id="canvas" width="800" height="800"></canvas>
+  <img id="tower-piece" src="tower-piece.png" />
+  <script src="constants.js"></script>
+  <script src="hex.js"></script>
+  <script src="draw.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
